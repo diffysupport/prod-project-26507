@@ -95,8 +95,8 @@ basic:
 advanced:
     mask: ''
     remove: ''
-    isolate: ''
-    delay: 20
+    isolate: .cookiesjsr-banner
+    delay: 40
     scroll: true
     headers:
         - { header: '', value: '' }
