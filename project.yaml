@@ -1,0 +1,113 @@
+basic:
+    name: Estesl
+    environments:
+        production: 'https://iplestesl.dev11.javali.pt/'
+        staging: 'https://iplestesl.dev9.javali.pt/'
+        development: ''
+    breakpoints:
+        - 376
+        - 640
+        - 1024
+        - 1366
+    pages:
+        - /
+        - /saml/login
+        - /user/login
+        - /user/register
+        - /estudar/licenciaturas/ciencias-biomedicas-laboratoriais
+        - /estudar/licenciaturas/imagem-medica-e-radioterapia
+        - /estudar/mestrados/m-farmacia
+        - /estudar/mestrados/radiacoes-aplicadas-as-tecnologias-da-saude
+        - /estudar/pos-graduacoes/comunicacao-e-marketing-na-industria-farmaceutica
+        - /estudar/pos-graduacao-avancos-em-oncobiologia-molecular-aplicada-ao-diagnostico-e-terapeutica
+        - /estudar/candidaturas/mestrados
+        - /candidaturas/candidaturas-pos-graduacoes
+        - /estudar/cursos-de-curta-duracao
+        - /estudar/unidades-curriculares-isoladas
+        - /estudar/reconhecimento-de-grau
+        - /estudar/candidaturas/candidaturas-licenciaturas/reingresso-mudanca
+        - /estudar/candidaturas/candidaturas-licenciaturas/titulares-cursos-superiores
+        - /estudar/candidaturas/estudante-internacional
+        - '/investigar/H&TRC'
+        - /investigar/projetos-e-bolsas/projetos-cofinanciados
+        - /investigar/projetos-e-bolsas/bolsas-de-investigacao
+        - /investigar/publicacoes/revista-saude-e-tecnologia
+        - /investigar/publicacoes/anuario-cientifico
+        - /investigar/publicacoes/producao-cientifica
+        - /investigar/recursos-digitais
+        - /investigar/empreendedorismo-inovacao
+        - /internacional/mobilidade-estudantes/erasmus
+        - /internacional/mobilidade-academica/mobilidade-extra-europa
+        - /internacional/mobilidade-docentes-e-nao-docentes
+        - /internacional/cooperacao-internacional
+        - /viver/conhecer-a-estesl/visitas
+        - /viver/conhecer-a-estesl/como-chegar
+        - /viver/ser-estudante/informacoes-academicas/calendario-academico
+        - /estesl/servicos-contactos/informatica
+        - /viver/ser-estudante/informacoes-academicas/horarios-e-avaliacoes
+        - /viver/ser-estudante/informacoes-academicas/propinas-e-emolumentos
+        - /viver/ser-estudante/informacoes-academicas/despachos-regulamentos
+        - /viver/ser-estudante/informacoes-academicas/impressos-e-requerimentos
+        - /viver/ser-estudante/informacoes-academicas/seguro-escolar
+        - /viver/ser-estudante/informacoes-academicas/creditacoes
+        - /viver/ser-estudante/informacoes-academicas/premios-de-merito
+        - /viver/ser-estudante/informacoes-academicas/provas-publicas
+        - /viver/ser-estudante/gaed/estudante-voluntario
+        - /viver/ser-estudante/gaed/mentoria-ipl-estesl
+        - /viver/ser-estudante/sas
+        - /viver/ser-estudante/provedor-estudante
+        - /viver/associacao-de-estudantes
+        - /viver/tunas
+        - /viver/alumni
+        - /viver/ofertas-emprego
+        - /estesl/a-escola/apresentacao
+        - /estesl/a%20escola/documentos-legislacao
+        - /estesl/a-escola/identidade-grafica
+        - /estesl/orgaos-de-gestao/conselho-de-representantes
+        - /estesl/orgaos-de-gestao/presidente
+        - /estesl/orgaos-de-gestao/conselho-tecnico-cientifico
+        - /estesl/orgaos-de-gestao/conselho-pedagogico
+        - /estesl/orgaos-de-gestao/conselho-consultivo
+        - /estesl/comissao-de-etica
+        - /estesl/departamentos
+        - /estesl/qualidade
+        - /estesl/relacao-com-a-comunidade/saude-e-bem-estar
+        - /estesl/relacao-com-a-comunidade/parcerias-e-protocolos
+        - /estesl/relacao-com-a-comunidade/reserva-de-espacos
+        - /estesl/sustentabilidade-ambiental/programa-eco-escolas
+        - /estesl/sustentabilidade-ambiental/outras-iniciativas
+        - /estesl/servicos-contactos
+        - /eventos/dia-da-estesl-2023
+        - /eventos
+        - /noticias/publicitacao-das-necessidades-de-contratacao-de-pessoal-docente-especialmente-contratado-0
+        - /noticias/recem-licenciada-da-estesl-vence-3a-edicao-do-premio-de-fotografia-e-exposicao-erasmusdays
+        - /noticias/curso-de-capacitacao-em-geriatria-para-voluntarios-reforca-competencias-dos-estudantes
+        - /noticias
+        - /mapa
+        - /moodle-antigo
+        - /politica-de-privacidade
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 20
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
