@@ -5,8 +5,8 @@ basic:
         staging: 'https://iplestesl.dev9.javali.pt/'
         development: ''
     breakpoints:
-        - 376
         - 640
+        - 1024
         - 1366
     pages:
         - /
